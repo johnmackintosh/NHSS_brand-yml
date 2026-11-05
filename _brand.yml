@@ -1,20 +1,35 @@
 color:
   palette:
-    dark-grey: "#222222"
-    blue: "#ddeaf1"
-    nhssyellow: "#FFEC00"
-    nhssorange: "#EE9C00"
-    nhssred: "#FF0000"
-    nhssdarkred: "#A1002F"
-    nhsspink: "#B80068"
-    nhsspurple: "#6B007B"
-    nhssdarkblue: "#092869"
-    nhsslightblue: "#00E8FF"
-    nhsslightgreen: "#0391BF"
-    nhssgreen: "#00A15F"
-    nhssdarkgreen: "#00684D"
+  # primary colours
+    nhssdarkblue: "#002D72"	
+    nhsslightblue: "#0077C8"
+    dark-grey: "#425563"
+    
+   # secondary -  for interest and personality
+   # relying on internet descriptions for some of these names
+   
+    nhssdarkred: "#A6192E"
+    nhssred: "#D22730"
+    nhssmagenta: "#AC145A"
+    nhssmauve: "#59315F"
+    nhsspurple: "#87189D"
+    nhssdarkpurple: "#221C35"
+    nhssdarkteal: "#004F59" # a.k.a. kali blue
+    nhssteal: "#007D8A"  # a.k.a. metallic seaweed
+    nhssdarkgreen: "#006341" # verdant green or ataoke bamboo
+    nhssgreen: "#008755"
+
+    # accent colours for occasional use
+    nhssyellow: "#F2CD00"
+    nhssorange: "#ED8B00"
+    nhsspink: "#DA1984"
+    nhsslimegreen: "#78BE21"
+    nhssturquoise: "#2CCCD3"
+   
+   
     white: '#FFFFFF'
     black: '#231F20'
+    
   foreground: black
   background: white
   primary: nhssdarkblue
@@ -40,17 +55,21 @@ logo:
   medium: nhss-logo
   large: nhss-logo
 
+
 typography:
   fonts:
+    - family: Source Sans Pro
+      source: google
+
     - family: Arial
       source: system
 
   base:
-    family: Arial, sans-serif
+    family: Source Sans Pro, Arial, sans-serif
     line-height: 1.5
 
   headings:
-    family: Arial, sans-serif
+    family: Source Sans Pro, Arial, sans-serif
     weight: 700
     line-height: 1.25
     color: nhssdarkblue
