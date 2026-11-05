@@ -3,7 +3,7 @@ color:
   # primary colours
     nhssdarkblue: "#002D72"	
     nhsslightblue: "#0077C8"
-    dark-grey: "#425563"
+    nhssdark-grey: "#425563"
     
    # secondary -  for interest and personality
    # relying on internet descriptions for some of these names
